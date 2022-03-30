@@ -1,4 +1,4 @@
-* git config --list
+* git config --list - деталі конфігу
 * touch NAME (e.g. foo.txt) - створити файл
 * mkdir NAME (e.g. bar) - створити директорію
 * cp NAME_FILE NEW_NAME (cp ./foo.txt ./bar.txt) - скопіювати файл
