@@ -1,3 +1,9 @@
+* git config --list
+* touch NAME (e.g. foo.txt) - створити файл
+* mkdir NAME (e.g. bar) - створити директорію
+* cp NAME_FILE NEW_NAME (cp ./foo.txt ./bar.txt) - скопіювати файл
+* mv NAME NEW NAME (mv foo.txt ../foo-3.txt) - перенести файл
+* cat FILE_NAME (cat first-file.txt) - вивести що є в файлі
 * ls - виводить файли в директорії
 * ls -a - виводить файли в директорії разом з прихованими afqkfvb
 * cd NAME(e.g. ~/Desktop/module-git) - переходить до директорії, яку вказуєм
@@ -5,7 +11,11 @@
 * git init - створення .git репозиторія
 * tree.com //a //f - показати директорію гіт
 * git status - статус репозиторія, файлик які змінили, створили, т.д.
+* 
 * git add NAME (e.g. first-file.txt) - додати файл, щоб протрекувати зміни
+* git add . - додати всі файли
+* git restore --staged foo.txt - забрати файл foo.txt з трекінгу
+* 
 * git commit -m "comment" - коміт змін з коментарем
 * git branch NAME - створити гілку
 * git checkout NAME - перейти на гілку
@@ -18,7 +28,8 @@
 * git rebase MAIN_BRANCH_NAME - просунути посилання гілки main вперед в історії до додаткової гілки
 
 **Пересування**:
-* HEAD - місце, де зараз знаходишся
+* HEAD - вказівник. місце, де зараз знаходишся
+* hash - унікальний код коміта
 * git checkout HASH_NAME (e.g. f2de) - пересуватись по хешам
 * git checkout HEAD^ - пересуватись вище HEAD. 
 * git checkout HEAD^^ - пересуватись вверх по гілці на 2 кроки
