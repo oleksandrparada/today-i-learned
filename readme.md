@@ -41,3 +41,12 @@
 * git branch -f BRANCH_NAME PLACE (BRANCH_NAME - e.g. main, bugFix) (PLACE - e.g. HEAD^, HEAD~3, hash) - переспрямувати бранч на якийсь конкретний коміт
 * git reset PLACE (e.g. HEAD^, HEAD~3, hash) - відміняє зміни переміщуючи вказівник гілки назад в історії на старіший коміт (для локальних бранчів на власному комп’ютері). вона спричиняє "переписування історії", її не можна використовувати в ситуації коли кілька користувачів працюють з цим бранчем
 * git revert HEAD - відкотити зміни й потім поділитися цими відкоченими змінами з друзями через push. Створює новий коміт (e.g. C2')
+
+**Псевдоніми**
+* git config --global alias.co checkout
+* git config --global alias.ci commit
+* git config --global alias.st status
+* git config --global alias.br branch
+* git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+* git config --global alias.type 'cat-file -t'
+* git config --global alias.dump 'cat-file -p'
