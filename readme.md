@@ -12,6 +12,10 @@
 * git log - історія змін
 * git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short - формат простий для змін
 
+* git tag NAME - тег для коміта
+* git tag - показати всі теги
+* git hist master --all - лог з тегами
+
 * git init - створення .git репозиторія
 * tree.com //a //f - показати директорію гіт
 * git status - статус репозиторія, файлик які змінили, створили, т.д.
