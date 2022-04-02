@@ -8,14 +8,18 @@
 * ls -a - виводить файли в директорії разом з прихованими afqkfvb
 * cd NAME(e.g. ~/Desktop/module-git) - переходить до директорії, яку вказуєм
 * cd .. - на рівень вище по директорії
+
+* git log - історія змін
+* git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short - формат простий для змін
+
 * git init - створення .git репозиторія
 * tree.com //a //f - показати директорію гіт
 * git status - статус репозиторія, файлик які змінили, створили, т.д.
-* 
+
 * git add NAME (e.g. first-file.txt) - додати файл, щоб протрекувати зміни
 * git add . - додати всі файли
 * git restore --staged foo.txt - забрати файл foo.txt з трекінгу
-* 
+
 * git commit -m "comment" - коміт змін з коментарем
 * git branch NAME - створити гілку
 * git checkout NAME - перейти на гілку
