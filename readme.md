@@ -4,6 +4,7 @@
 * git cat-file - Надає вміст або інформацію про тип і розмір для об'єктів сховища
 * git cat-file -p hash - pretty-print вміст об'єкта
 
+* git remote -v - вивести всі віддалені репозиторії на локальній машині
 * git config --list - деталі конфігу
 * touch NAME (e.g. foo.txt) - створити файл
 * mkdir NAME (e.g. bar) - створити директорію
